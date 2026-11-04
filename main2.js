@@ -22,14 +22,17 @@ if (documento && idade){
     console.log ("Pode Dirigir !")
 }
 //Exemplo 3 AND / &&
-let num1 = 10
-let num2 = 35
-let num3 = 20
+var num1 = 10
+var num2 = 35
+var num3 = 20
 
-if (num1 && num2 > num3){
-    console.log ("O terceiro numero e menor")
-}else{
-    num1 && num2 < num3
-    console.log ("O terceiro numero e maior")
+if (num1 > num2 && num1 > num3){
+    console.log("o primeiro numero é maior")
 }
-.
+if (num2 > num1 && num2 > num3){
+    console.log("o segundo numero é maior")
+}
+if (num3 > num1 && num3 > num2 ){
+    console.log("o terceiro numero é o maior")
+}
+
